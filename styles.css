@@ -1,0 +1,76 @@
+* {
+  /* "CSS-Reset" So kann die breite von Elementen beibehalten werden -
+  man läuft nicht Gefahr dass man nach rechts und links
+  scrollen kann */
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5em;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  hyphens: auto;
+  background-image: url("7J0A1318_2x3.jpg");
+}
+button {
+  cursor: pointer;
+}
+h1 {
+  /*font-family: sans-serif; */
+  display: inline;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid blue;
+  padding-right: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+p {
+  color: red;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  color: blue;
+  font-style: italic;
+}
+
+a {
+  color: rgb(166, 216, 240);
+  display: block;
+  text-decoration: underline;
+}
+
+.page-header {
+  background-color: rgb(166, 216, 240);
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.green-paragraph {
+  background-color: rgb(166, 216, 240);
+}
+
+.Profilbild {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Weihnachtsbild {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Kommentar in CSS*/
